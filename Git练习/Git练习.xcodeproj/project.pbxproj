@@ -15,6 +15,7 @@
 		DCE722861CD4CB99001E4735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE722841CD4CB99001E4735 /* LaunchScreen.storyboard */; };
 		DCE722911CD4CB99001E4735 /* Git__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE722901CD4CB99001E4735 /* Git__Tests.m */; };
 		DCE7229C1CD4CB99001E4735 /* Git__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE7229B1CD4CB99001E4735 /* Git__UITests.m */; };
+		DCE722AB1CD4CC98001E4735 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE722AA1CD4CC98001E4735 /* Dog.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DCE722971CD4CB99001E4735 /* Git练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE7229B1CD4CB99001E4735 /* Git__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git__UITests.m; sourceTree = "<group>"; };
 		DCE7229D1CD4CB99001E4735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE722A91CD4CC98001E4735 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		DCE722AA1CD4CC98001E4735 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DCE7227A1CD4CB99001E4735 /* AppDelegate.m */,
 				DCE7227C1CD4CB99001E4735 /* ViewController.h */,
 				DCE7227D1CD4CB99001E4735 /* ViewController.m */,
+				DCE722A91CD4CC98001E4735 /* Dog.h */,
+				DCE722AA1CD4CC98001E4735 /* Dog.m */,
 				DCE7227F1CD4CB99001E4735 /* Main.storyboard */,
 				DCE722821CD4CB99001E4735 /* Assets.xcassets */,
 				DCE722841CD4CB99001E4735 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				DCE7227E1CD4CB99001E4735 /* ViewController.m in Sources */,
 				DCE7227B1CD4CB99001E4735 /* AppDelegate.m in Sources */,
+				DCE722AB1CD4CC98001E4735 /* Dog.m in Sources */,
 				DCE722781CD4CB99001E4735 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
